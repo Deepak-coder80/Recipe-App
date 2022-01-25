@@ -55,6 +55,7 @@ class _RecipeDetailState extends State<RecipeDetail> {
                   _sliderVal = newValue.round();
                 });
               },
+              label: "${_sliderVal.round().toString()} servings",
               activeColor: Colors.green,
               inactiveColor: Colors.black,
             )
